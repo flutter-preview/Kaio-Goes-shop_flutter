@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       ),
       home: ProdutcsOverviewPage(),
       debugShowCheckedModeBanner: false,
-      routes: {AppRoutes.PRODUCT_DETAIL: (ctx) => const ProductDetailPage()},
+      routes: {AppRoutes.productDetail: (ctx) => const ProductDetailPage()},
     );
   }
 }
